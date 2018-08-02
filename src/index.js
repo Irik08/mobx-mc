@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import Counter from './Counter';
+import Store from './Store';
 
-ReactDOM.render(<App counter={new Counter()} />, document.getElementById('root'));
+ReactDOM.render(<App store={new Store()} />, document.getElementById('root'));
 registerServiceWorker();
