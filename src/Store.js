@@ -9,4 +9,8 @@ export default class Store {
             this.skus.set(sku.id, sku);
         }
     }
+
+    @action addItem = (item) => {
+        console.log('adding', item);
+    }
 }
