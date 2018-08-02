@@ -1,7 +1,8 @@
 ```npm install -g create-react-app
 yarn install
 yarn start
-yarn add mobx mobx-react  react-app-rewire-mobx react-app-rewired```
+yarn add mobx mobx-react  react-app-rewire-mobx react-app-rewired
+```
 
 
 #### 'Flip' the existing calls to `react-scripts` in `npm` scripts
