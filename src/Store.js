@@ -48,6 +48,16 @@ export default class Store {
         }
     }
 
+    @computed get totalCount() {
+        return this.order.reduce((i, v) => i + v.count, 0);
+    }
+    @computed get totalWeight() {
+        return this.order.reduce((i, v) => i + v.count * v.weight, 0);
+    }
+    @computed get totalPrice() {
+        return this.order.reduce((i, v) => i + v.count * v.price, 0);
+    }
+
     @computed get somethingSelected() {
         return this.order.length > 0;
     }

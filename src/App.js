@@ -31,6 +31,12 @@ class App extends Component {
               <div>Итого</div>
             </div>
             {Array.from(store.order).map(i => <OrderItem item={i} />)}
+            <div className='order-footer'>
+              <div />
+              <div>Всего позиций: {store.totalCount}</div>
+              <div>Вес, всего: {store.totalWeight.toFixed(2)}</div>
+              <div>Итого к оплате: {store.totalPrice.toFixed(2)}</div>
+            </div>
           </div>}
       </div>
     );

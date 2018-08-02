@@ -49,12 +49,12 @@
   max-height: 100px;
 }
 
-.order-header {
+.order-footer, .order-header {
   display: grid;
   margin-bottom: 20px;
   grid-template-columns: 120px 1fr 1fr 1fr 1fr 1fr;
-
 }
+
 .order-item {
   display: grid;
   max-height: 100px;
