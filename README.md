@@ -31,7 +31,7 @@ module.exports = function override(config, env) {
 ```
 
 #### add  tsconfig.json file
-````js
+```js
 {
     "compilerOptions": {
         "experimentalDecorators": true,
@@ -40,7 +40,7 @@ module.exports = function override(config, env) {
 }
 ```
 
-yarn start 
+`yarn start`
 
 
 additional info:
